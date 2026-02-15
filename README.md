@@ -1,6 +1,6 @@
 # Neural Machine Translation (BG → EN)
 
-Course project for **Търсене и извличане на информация. Приложение на дълбоко машинно обучение** (Winter 2025/2026).
+Course project for **Deep Learning. Information retrieval and extraction** (Winter 2025/2026).
 
 This repo contains three phases of NMT experiments:
 - **Phase 1**: Decoder‑only Transformer (word‑level)
