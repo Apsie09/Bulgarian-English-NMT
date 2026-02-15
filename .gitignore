@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Model weights / checkpoints
+NMTmodel*
+*.optim
+phase1_transformer/NMTmodel*
+phase2_transformer_bpe/NMTmodel*
+phase3_cnn_lstm/NMTmodel*
+
+# Tokenizer artifacts
+bpeModel
+phase2_transformer_bpe/bpeModel
+
+# Large prepared corpora (optional)
+corpusData
+corpusData_bpe
+corpusData_seq2seq_bpe
+corpusData_seq2seq_word
+
+# Docs to exclude
+README.txt
+documentation/Documented_Phase_Results.md
