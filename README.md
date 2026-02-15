@@ -165,6 +165,7 @@ python shared/run.py train_phase3
 - Perplexity is **not directly comparable** between word-level and BPE tokenization.
 - Beam search improves BLEU but is slower.
 - Phase 3 performs best with **word-level** data (BPE underperformed for CNN+LSTM).
+- All models and components (Transformer, CNN, LSTM, attention, BPE tokenizer, beam search) were implemented from scratch in PyTorch, in accordance with the requirements in `documentation/proj.txt` (no third‑party ML/NMT libraries beyond the course environment).
 
 ---
 
